@@ -21,11 +21,14 @@ body {
 ul {
   list-style: none;
 }
-li > span {
 
+li > span {
 font-size: 20px;
 font-weight: 700;
 vertical-align: super;
+}
+li:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .card > span {
